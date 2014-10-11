@@ -1,7 +1,7 @@
 ## Plot 2
 
 ## Read files
-HP <- read.csv("household_power_consumption.txt", sep=";", na.strings="?",
+HP <- read.table("household_power_consumption.txt", sep=";", na.strings="?",
                col.names = c("Date", "Time", "Global_active_power",
                              "Global_reactive_power",
                              "Voltage", "Global_intensity",
